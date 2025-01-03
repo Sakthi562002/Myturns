@@ -1,0 +1,218 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    line-height: 1.6;
+}
+#nav{
+    border: 1px solid black;
+    color: #fff;
+    background-color: #333;
+    line-height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    
+}
+
+.item{
+    border: 1px solid #333;
+    background-color: #333;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+#nav .item:hover{
+    transform: scaleX(1.2);
+    transform: scaleY(1.5);
+    border: 1px solid rgb(37,37,41);
+    background-color: rgb(37,37,41);
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1;
+    display: inline-block;
+}
+#my{
+    font-size: 70px;
+}
+#my2{
+    font-size: 30px;
+}
+#para{
+    font-size: 24px;
+}
+
+#turns{
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    color: #fff;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 120vh;
+
+}
+#turns1{
+    position: absolute;
+    top: 250px;
+    left: 220px;
+    width: 1200px;
+}
+#music{
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+    left: 280px;
+    width: 1200px;
+    line-height: 1.2;
+    
+}
+#all{
+    position: relative;
+    top: -35px;
+    background-color: rgb(37,37,41);
+    color: #fff;
+    height: 150vh;
+}
+#music-heading{
+    font-size: 40px;
+}
+#headind-45{
+    font-size: 32px;
+}
+#para1{
+    font-size: 22px;
+}
+#button1{
+    background-color: rgb(185,4,21);
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgb(185,4,21) ;
+}
+#font{
+    font-size: 17px;
+}
+img[alt="music"]{
+    position: relative;
+    left: 450px;
+    top: 60px;
+    width: 1000px;
+    height: 800px;
+    box-sizing: border-box;
+}
+#movie{
+    font-size: 32px;
+}
+#para2{
+    font-size: 22px;
+}
+
+#button2{
+    color: #fff;
+    width: 130px;
+    height: 50px;
+    background-color: rgb(16,48,99);
+}
+#tv{
+    text-align: center;
+    position: relative;
+    left: 300px;
+    width: 1200px;
+
+}
+
+
+img[ alt="myturn"]{
+    position: relative;
+    left: 300px;
+}
+#world-heading{
+    font-size: 32px;
+}
+#world-heading-para{
+    
+    position: relative;
+    text-align: center;
+    width: 1200px;
+    left: 300px;
+    top: 200px;
+    color: #fff;
+    
+}
+#para3{
+    font-size: 20px;
+}
+#back-image{
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+img[alt="gift"]{
+    position: relative;
+    top: 30px;
+    left: 200px;
+    width: 600px;
+    height: 500px;
+}
+#gift-card{
+    position: relative;
+    left: 220px;
+    top: 5px;
+    width: 700px;
+}
+#color{
+    color: rgb(16,48,99);
+    font-size: 18px;
+}
+#redeem{
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+#about{
+    background-color: rgb(37,37,41);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.orange{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(204,204,204);
+    
+
+}
+
+.shop{
+    color: #fff;
+    font-size: 17px;
+}
+.size{
+    width: 200px;
+    text-align: left;
+    
+}
+#end{
+    background-color: rgb(51,51,51);
+    position: relative;
+    top: 0px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+
+
